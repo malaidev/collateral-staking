@@ -1,0 +1,194 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x37BDd1ec8b3Dc6f8659Bad197182D41fF4Ee9CFd",
+    "txHash": "0x4c7d068b906d1b8fead98501317d3817934babc540082fc7ec0860aa7859ac54"
+  },
+  "proxies": [
+    {
+      "address": "0x940c451AC3EEeA945111595FF91BFF76c878663B",
+      "txHash": "0x9857ca1dbc3b0bbc36b80b1896b1ed53a73cafb5db611e30b25ac345efd1a08c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "da734ac09a03f911b81c2dccf69407eab24b4766948e2fb95c1224183165d21e": {
+      "address": "0x883d9eBA30304A49C2Ec2d3F3A71CE1dE1548F25",
+      "txHash": "0x609b878b049c4b06fd4a89758719386528854975b1d0ae160db97fbf05686d12",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "label": "treasuryAddress",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_address",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:27"
+          },
+          {
+            "label": "dpxToken",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_address",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:28"
+          },
+          {
+            "label": "gmxToken",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_address",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:29"
+          },
+          {
+            "label": "dpxStakingRewards",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_contract(IDPXStakingRewards)2191",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:31"
+          },
+          {
+            "label": "gmxRewardRouterV2",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_contract(IGMXRewardRouterV2)2302",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:32"
+          },
+          {
+            "label": "whitelisted",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:34"
+          },
+          {
+            "label": "_assetsDeposited",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:36"
+          },
+          {
+            "label": "_assetsStaked",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:37"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "CollStakingManager",
+            "src": "src\\main\\CollStakingManager.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IDPXStakingRewards)2191": {
+            "label": "contract IDPXStakingRewards",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IGMXRewardRouterV2)2302": {
+            "label": "contract IGMXRewardRouterV2",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

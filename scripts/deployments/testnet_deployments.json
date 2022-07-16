@@ -1,0 +1,18 @@
+{
+  "DPX": {
+    "address": "0xf0e757e6Ad864439534FDF1357390CdCf4531286"
+  },
+  "GMX": {
+    "address": "0x44969064d53BFb0b2fD2d46792269e2C415be3D1"
+  },
+  "DpxStakingRewards": {
+    "address": "0x268D0E91A88640210ee730a5f59BF047e32B437E"
+  },
+  "GmxRewardRouterV2": {
+    "address": "0x9A7ec9C5dE4065144227d283F3f2CdA44b60C9D7"
+  },
+  "CollStakingManager": {
+    "address": "0x940c451AC3EEeA945111595FF91BFF76c878663B",
+    "proxyAdmin": "0x37BDd1ec8b3Dc6f8659Bad197182D41fF4Ee9CFd"
+  }
+}
