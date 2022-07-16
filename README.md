@@ -12,7 +12,7 @@ Suports collaterals for DPX and GMX tokens.
 ### Commands script
 
 ```
-git clone https://github.com/vesta-finance/vesta-collateral-staking.git
+git clone https://github.com/IntelMin/collateral-staking.git
 forge install
 forge build
 forge test
